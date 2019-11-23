@@ -1,0 +1,15 @@
+reporter: "xcode"
+
+included:
+  - ../Sources/
+
+disabled_rules:
+  - cyclomatic_complexity
+  - line_length
+  - nesting
+  - unused_optional_binding
+  - variable_name
+
+# Specialized Rules
+file_length:
+  - 500
